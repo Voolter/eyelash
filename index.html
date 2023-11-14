@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="theme-color" content="rgb(252, 229, 233)" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+    <meta name="description" content="Профессиональное наращивание ресниц от опытного мастера.
+     Перед вами уникальная возможность оставить свой след в мире красоты. 
+     Наши услуги по наращиванию ресниц созданы опытным мастером с любовью и вниманием к деталям. 
+     Попробуйте лучшее искусство наращивания ресниц вместе с нами.">
+    <script src="node_modules/gsap/gsap.min.js" defer></script>
+    <script src="node_modules/gsap/ScrollSmoother.min.js" defer></script>
+    <script src="node_modules/gsap/ScrollTrigger.min.js" defer></script>
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <div class="preloader__content">
+        <svg class="preloader" xmlns="http://www.w3.org/2000/svg" fill="rgb(252, 229, 233)" viewBox="0 0 512 512">
+            <path
+                d="M304 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm0 416a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM48 304a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm464-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM142.9 437A48 48 0 1 0 75 369.1 48 48 0 1 0 142.9 437zm0-294.2A48 48 0 1 0 75 75a48 48 0 1 0 67.9 67.9zM369.1 437A48 48 0 1 0 437 369.1 48 48 0 1 0 369.1 437z" />
+        </svg>
+    </div>
+    <div class="content" hidden>
+        <div class="underheader"></div>
+        <header>
+            <div class="container">
+                <div class="header__flex">
+                    <div class="burger__block">
+
+                        <div class="burger__blockmenu">
+                            <svg class="x" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                <path
+                                    d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
+                            </svg>
+                            Меню
+                        </div>
+
+                        <div class="burgers">
+                            <span class="burger"></span>
+                            <span class="burger"></span>
+                            <span class="burger"></span>
+                        </div>
+                    </div>
+
+                    <div class="header__logo">
+                        <div class="column">
+                            <h1 class="header__logotext">Лого Название</h1>
+                            <p class="underline">*Какое?</p>
+                        </div>
+                    </div>
+                    <div class="header__menu">
+                        <div class="header__main">
+                            <h2 class="header__start">Начало</h2>
+                            <h2 class="header__price">Стоимость услуг</h2>
+                            <h2 class="underline">*Добавляем все кнопки с того сайта?</h2>
+                            <h2 class="underline">*Добавим что-то дополнительно?</h2>
+                        </div>
+
+                        <div class="header__main_mobile">
+                            <h2 class="header__start">Начало</h2>
+                            <h2 class="header__price">Стоимость услуг</h2>
+                            <h2 class="underline">*Добавляем все кнопки с того сайта?</h2>
+                            <h2 class="underline">*Добавим что-то дополнительно?</h2>
+                        </div>
+                    </div>
+                    <div class="header__contact">
+                        <div class="header__text">Контакт</div>
+                        <svg class="header__svg" xmlns="http://www.w3.org/2000/svg" height="30px" fill="#fcfcee"
+                            viewBox="0 0 512 512">
+                            <path
+                                d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="image">
+            <div class="block__img">
+                <div class="container">
+                    <div class="block__underimg">
+                        <div class="main__text">
+                            <p>Придайте объем ресницам </p>
+                            <p>с помощью наращивания</p>
+                        </div>
+                        <div class="small__text">
+                            <p>Подберем процедуру, исходя из ваших пожеланий и </p>
+                            <p>индивидуальных особенностей. Гарантированный результат</p>
+                            <p class="underline">*Нам бы что-то здесь добавить и изменить</p>
+                        </div>
+                        <div class="main__flex">
+                            <button class="button">Записаться на ресницы</button>
+                            <button class="button">Записаться на обучение</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="price">
+            <div class="container">
+                <div class="price__block">
+                    <h2 class="price__text">
+                        Стоимость услуг наращивания ресниц
+                    </h2>
+                    <h3 class="price__smalltext">
+                        Выберите вариант наращивания ресниц, который вам больше всего нравится
+                    </h3>
+                    <div class="pomade">
+                        <img class="pomade__item" src="./img/pomade.png" alt="pomade" loading="lazy">
+                    </div>
+                    <div class="botforts">
+                        <img class="botforts__item" src="./img/botforts.png" alt="botforts" loading="lazy">
+                    </div>
+                </div>
+            </div>
+            <div class="price__grid">
+                <div class="square">
+                    <div class="square__image">
+                        <p class="underline">*Здесь должна быть фотка</p>
+                    </div>
+                    <div class="square__name">Неполный объем</div>
+                    <div class="square__description">
+                        Данный способ наращивания повторяет естественный изгиб ресниц, как будто используете тушь
+                        <p class="underline">*Что сюда писать?</p>
+                    </div>
+                    <div class="square__price">1500 руб.
+                        <p class="underline">*Какая цена?</p>
+                    </div>
+                </div>
+                <div class="square">
+                    <div class="square__image">
+                        <p class="underline">*Здесь должна быть фотка</p>
+                    </div>
+                    <div class="square__name">Один объем</div>
+                    <div class="square__description">
+                        Данный способ наращивания повторяет естественный изгиб ресниц, как будто используете тушь
+                        <p class="underline">*Что сюда писать?</p>
+                    </div>
+                    <div class="square__price">1700 руб.
+                        <p class="underline">*Какая цена?</p>
+                    </div>
+                </div>
+                <div class="square">
+                    <div class="square__image">
+                        <p class="underline">*Здесь должна быть фотка</p>
+                    </div>
+                    <div class="square__name">Двойной объем</div>
+                    <div class="square__description">
+                        Данный способ наращивания повторяет естественный изгиб ресниц, как будто используете тушь
+                        <p class="underline">*Что сюда писать?</p>
+                    </div>
+                    <div class="square__price">1900 руб.
+                        <p class="underline">*Какая цена?</p>
+                    </div>
+                </div>
+                <div class="square">
+                    <div class="square__image">
+                        <p class="underline">*Здесь должна быть фотка</p>
+                    </div>
+                    <div class="square__name">Тройной объем</div>
+                    <div class="square__description">
+                        Данный способ наращивания повторяет естественный изгиб ресниц, как будто используете тушь
+                        <p class="underline">*Что сюда писать?</p>
+                    </div>
+                    <div class="square__price">2100 руб.
+                        <p class="underline">*Какая цена?</p>
+                    </div>
+                </div>
+                <div class="square">
+                    <div class="square__image">
+                        <p class="underline">*Здесь должна быть фотка</p>
+                    </div>
+                    <div class="square__name">Голливудский объем</div>
+                    <div class="square__description">
+                        Данный способ наращивания повторяет естественный изгиб ресниц, как будто используете тушь
+                        <p class="underline">*Что сюда писать?</p>
+                    </div>
+                    <div class="square__price">2300 руб.
+                        <p class="underline">*Какая цена?</p>
+                    </div>
+                </div>
+                <div class="square">
+                    <div class="square__image">
+                        <p class="underline">*Здесь должна быть фотка</p>
+                    </div>
+                    <div class="square__name">Естественный объем</div>
+                    <div class="square__description">
+                        Данный способ наращивания повторяет естественный изгиб ресниц, как будто используете тушь
+                        <p class="underline">*Что сюда писать?</p>
+                    </div>
+                    <div class="square__price">2500 руб.
+                        <p class="underline">*Какая цена?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
